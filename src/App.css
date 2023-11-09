@@ -1,0 +1,63 @@
+#root {
+  height: 100vh;
+}
+
+.title {
+  background-color: rgb(20, 87, 163);
+  padding: 1rem;
+  display: flex;
+  place-content: center;
+  color: #fff;
+}
+
+main,
+.home {
+  height: 100%;
+}
+
+.home {
+  background-color: red;
+  position: relative;
+}
+
+button {
+  background-color: rgb(20, 87, 163);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-width: 20vw;
+  padding: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 2% auto 0;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: rgb(20, 87, 163);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  color: #fff;
+  background-color: rgb(20, 87, 163);
+}
+
+.scanner-container{
+  position: relative;
+  background-color: bisque;
+  min-width: 50vw;
+}
+
+.scanner{
+  min-width: 50vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

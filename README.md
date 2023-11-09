@@ -1,6 +1,6 @@
 # QR Code Scanner
 
-This is a full stack web app.
+This is Front-end part of full stack web app.
 
 ## Summary
 
@@ -30,5 +30,5 @@ cd QR-Code-Scanner
 pnpm install
 ```
 ```shell
-pnpm start
+pnpm dev
 ```
